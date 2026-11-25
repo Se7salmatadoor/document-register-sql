@@ -1,5 +1,7 @@
 # Document Register in SQL (SQLite)
 
+![Example output of the SQL register queries (dummy data)](images/sql-output.png)
+
 A small SQL project built around a document control transmittal register: which items were sent, which got a reply, which are overdue, and how long replies take. It uses SQLite, so there is nothing to install beyond Python (or the `sqlite3` command line tool).
 
 All data is dummy data made for demonstration. It contains no employer or project data. It is the same 30 rows as the Excel tracker project, so you can compare the answers.
